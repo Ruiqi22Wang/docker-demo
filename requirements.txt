@@ -1,2 +1,6 @@
 click
 pylint
+pandas
+matplotlib
+numpy
+sklearn

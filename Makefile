@@ -21,6 +21,6 @@ run-circleci-local:
 
 lint:
 	hadolint Dockerfile 
-	pylint --disable=R,C,W1203 iris.py
+	pylint --disable=R,C,W1203 classification.py
 
 all: install lint test
