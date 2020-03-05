@@ -13,4 +13,4 @@ RUN make install
 # RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 # default command of `docker run`
-CMD python app.py
+CMD python iris.py
